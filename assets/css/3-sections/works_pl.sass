@@ -1,0 +1,83 @@
+section.works_pl
+  min-height: 100vh
+  position: relative
+  overflow: hidden
+  width: 100%
+  background: transparent
+  // background:
+  //   image: url(/assets/img/work.jpg)
+  //   position: center
+  //   size: cover
+  //   repeat: no-repeat
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  flex-direction: column
+  justify-content: space-around
+
+
+  .content
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: center
+    text-align: justify
+    clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 80%)
+    background: rgba(0,0,0,0.8)
+    min-height: 60vh
+    width: 100%
+    padding: 50px 0px
+    flex-wrap: no-wrap
+
+    h3
+      color: white
+      font-size: 50px
+
+    p
+      color: white
+      margin-left: auto
+      margin-right: auto
+      width: 70%
+      font-size: 15px
+      padding: 30px 0px
+      text-align: justify
+
+    ul
+
+      li
+        color: white
+        font-size: 15px
+
+@media (max-width: 800px)
+  section.works_pl
+    .content
+
+      h3
+        font-size: 20px
+        margin: 0px
+        padding: 0px
+
+      p
+        font-size: 12px
+        margin: 20px
+        padding: 20px
+      ul
+        li
+          font-size: 12px
+
+
+@media (max-width: 500px)
+  section.works_pl
+    .content
+
+      h3
+        font-size: 20px
+
+      p
+        font-size: 10px
+        margin: 10px
+        padding: 10px
+
+      ul
+        li
+          font-size: 10px

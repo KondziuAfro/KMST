@@ -1,0 +1,20 @@
+@import "0-tools/bourbon/bourbon";
+@import "0-tools/normalize";
+@import "0-tools/fonts";
+
+@import "1-base/vars";
+@import "1-base/base";
+
+@import "3-sections/header";
+@import "3-sections/about_pl";
+@import "3-sections/works_pl";
+@import "3-sections/clients_pl";
+@import "3-sections/clients_ua";
+@import "3-sections/employees_pl";
+@import "3-sections/employees_ua";
+@import "3-sections/contact_pl";
+@import "3-sections/footer";
+@import "3-sections/nav";
+@import "3-sections/nav_ua";
+
+@import "4-layouts/home";
